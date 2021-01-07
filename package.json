@@ -1,0 +1,60 @@
+{
+  "name": "QnA",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.11.0",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/netinfo": "^5.9.1",
+    "@react-navigation/drawer": "^5.10.0",
+    "@react-navigation/native": "^5.8.0",
+    "@react-navigation/stack": "^5.10.0",
+    "@types/i18n-js": "^3.0.3",
+    "@types/yup": "^0.29.9",
+    "axios": "^0.19.2",
+    "formik": "^2.2.1",
+    "i18n-js": "^3.5.1",
+    "native-base": "^2.13.12",
+    "react": "16.11.0",
+    "react-native": "0.62.2",
+    "react-native-dropdown-picker": "^3.7.1",
+    "react-native-elements": "^3.0.0-alpha.1",
+    "react-native-gesture-handler": "^1.8.0",
+    "react-native-keyboard-aware-scroll-view": "^0.9.3",
+    "react-native-reanimated": "^1.13.1",
+    "react-native-safe-area-context": "^3.1.8",
+    "react-native-screens": "^2.11.0",
+    "react-native-vector-icons": "^7.1.0",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "yup": "^0.29.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "@types/jest": "^26.0.3",
+    "@types/react": "^16.9.41",
+    "@types/react-native": "^0.62.13",
+    "@types/react-native-vector-icons": "^6.4.6",
+    "@types/react-redux": "^7.1.15",
+    "@types/react-test-renderer": "^16.9.2",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.58.0",
+    "react-test-renderer": "16.11.0",
+    "typescript": "^3.9.5"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
